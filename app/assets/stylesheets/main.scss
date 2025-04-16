@@ -1,0 +1,109 @@
+.navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p {
+    padding: 10px 20px 10px 20px;
+}
+
+#selfportrait {
+    font-size:10pt;
+}
+
+#galleryintro {
+    text-align:center;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+
+
+img {
+    margin: 5px 10px 5px 10px;
+    border-style:solid;
+    border-width:3px;
+    border-color:cornflowerblue;
+}
+
+#ballpic {
+    margin-top: 20px;
+    max-width:600px;
+    max-height:600px;
+}
+
+#leftside {
+    width: 60%;
+    float:left;
+}
+
+#rightside {
+    width: 40%;
+    float:right;
+}
+
+@media (max-width: 1200px) {
+    #leftside {
+        float:none;
+    }
+    
+    #rightside {
+        float:none;
+    }
+}
+
+#clearfixed {
+    overflow:hidden;
+    padding: 10px 10px 10px 10px;
+}
+
+.buttonreplica {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+
+    width:90%;
+    margin:auto;
+
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    transition: color 1s;
+}
+
+.buttontext {
+    color:white;
+    text-decoration:none;
+}
+
+.buttontext:hover {
+    color:white;
+    text-decoration:none;
+}
+
+.buttonreplica:hover {
+    background-color: #0c56c4;
+    border-color: #0c56c4;
+}
+
+.alertreplica {
+    clear:both;
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+
+    position: relative;
+    padding: 1rem 1rem;
+    margin:auto;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    width:90%;
+}

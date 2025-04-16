@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>William Zhang</title>
+        <%= stylesheet_link_tag "main" %>
+	</head>
+
+	<body>
+
+		<header>
+			<nav class="navbar navbar-dark bg-dark">
+				<a class="navbar-brand"	href="<%= profile_index_url %>">WZhang</a>
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link active" href="<%= profile_index_url %>"><i class="fas fa-home"></i> Homepage </a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="<%= profile_portfolio_url %>"><i class="fa-solid fa-book-open"></i> Academics </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="<%= profile_about_url %>"><i class="fa-solid fa-book-open"></i> Personal </a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="<%= profile_gallery_url %>"><i class="fa-solid fa-camera"></i> Gallery </a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="jumbotron">
+						<h1 class="display-4">William Zhang</h1>
+						<p class="aboutme">
+							Hey there!
+							I'm a senior attending Connecticut College majoring in Computer Science
+							and a minor in Finance.
+							I also play the violin in the college orchestra. The overall trajectory of my classes here
+							has mostly focused on the subject of artificial intelligence,
+							but as you can see I'm no slouch at front-end web development either!
+
+							Random rambling ramble ramble ramble jabber jabber jabber ramble
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<%= image_tag("literallyme.jpg",:class => "img-fluid")%>
+					<p id="selfportrait">
+						Please accept this goofy representation of myself in lieu of an actual picture.
+					</p>
+				</div>
+			</div>
+			<div class="row pb-4">
+				<div class="alert alert-primary" role="alert">
+					If you want to see more about me, click the buttons in the navbar up top! <i class="fa-solid fa-arrow-up"></i>
+				</div>
+				<a class="btn btn-primary" href="<%= profile_contact_url %>" role="button"><i class="fa-solid fa-phone"></i> Contact Info </a>
+			</div>
+		</div>
+	</body>
+
+
+	
+</html>

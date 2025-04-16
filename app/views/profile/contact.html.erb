@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>William Zhang</title>
+        <%= stylesheet_link_tag "main" %>
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-dark bg-dark">
+				<a class="navbar-brand"	href="<%= profile_index_url %>">WZhang</a>
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link" href="<%= profile_index_url %>"><i class="fas fa-home"></i> Homepage </a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="<%= profile_portfolio_url %>"><i class="fa-solid fa-book-open"></i> Academics </a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="<%= profile_about_url %>"><i class="fa-solid fa-book-open"></i> Personal </a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="<%= profile_gallery_url %>"><i class="fa-solid fa-camera"></i> Gallery </a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+        <div class="row justify-content-center">
+            <div class="card col-4 mt-5" id="contactinfo">
+                <div class="card-header">
+                    Ways to Reach Me
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><i class="fa-solid fa-envelope"></i> Email: obviouslyfake@gmail.com</li>
+                  <li class="list-group-item"><i class="fa-solid fa-mobile-screen-button"></i> Cell: ###-###-####</li>
+                </ul>
+                <div class="card-body">
+                    Usually busy in the mornings during the weekdays, and in the evenings on the weekends.
+                </div>
+            </div>
+
+        </div>
+
+	</body>
+
+
+	
+</html>
