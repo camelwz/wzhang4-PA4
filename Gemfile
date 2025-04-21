@@ -19,7 +19,7 @@ gem "jbuilder"
 
 #PA4 additions
 gem 'dartsass-sprockets'
-gem 'bootstrap', '~> 5.3.3'
+gem 'bootstrap', '~> 5.3.5'
 gem "font-awesome-sass"
 gem "jquery-rails"
 gem 'sprockets-rails'
